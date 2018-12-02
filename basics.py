@@ -39,7 +39,11 @@ list1 = [1,3,5,7]
 dir(list1)
 list1.append(9)
 
-list2 = [11,13,15]
+list2 = [11,13,15,17,19,21,23,25]
+list2[0:2]
+list2[1:4]
+list2[:4]
+list2[4:]
 list1.extend(list2)
 list2.clear()
 list2.append(-1)
